@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid wheat;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 17px;
+  left: 15px;
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.ellipsis-dot {
+  position: absolute;
+  left: 35px;
+  bottom: 30px;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+}
